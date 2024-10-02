@@ -50,6 +50,14 @@ Boxplot shows those who drink more alcohol sit in the back.
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+
+The average in ounces of alcohol consumption for those in the back seats is 8.5.   
+The average in ounces of alcohol consumption for those in the front is 1.7.  
+The average in ounces of alcohol consumption for those in the middle is 3.3.  
+
 ## Inferential Tests
 
 ## Conclusions
